@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "tts-streaming-app"
+version = "0.1.0"
+description = ""
+authors = ["h-k-nyosu <kuro.h1020@gmail.com>"]
+readme = "README.md"
+packages = [{include = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+openai = "^1.1.1"
+fastapi = "^0.104.1"
+uvicorn = "^0.24.0.post1"
+pydantic = "^2.4.2"
+pydub = "^0.25.1"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

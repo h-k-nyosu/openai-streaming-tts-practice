@@ -1,7 +1,13 @@
 ## OpenAI TTS StreamingのバックエンドAPI
 
-OpenAIのTTS Streamingを試してみたかったので、FastAPIを使って簡易的に試してみた。UIを持って出力するならばNext.jsとかを使うのが良いのかも。
+OpenAIのTTS Streamingを試してみたかったので、FastAPIを使って簡易的に試してみた。
 
+UIを持って出力するならばNext.jsとかを使うのが良いのかも。
+
+
+### 前提
+
+- pyenv+Poetryが必要です
 
 ### 実行手順
 
